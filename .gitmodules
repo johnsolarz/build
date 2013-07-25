@@ -1,0 +1,24 @@
+[submodule "plugins/acf"]
+	path = plugins/acf
+	url = git@github.com:elliotcondon/acf.git
+[submodule "plugins/akismet"]
+	path = plugins/akismet
+	url = git@github.com:crowdfavorite-mirrors/wp-akismet.git
+[submodule "plugins/analytics360"]
+	path = plugins/analytics360
+	url = git@github.com:crowdfavorite/wp-analytics360.git
+[submodule "plugins/better-wp-security"]
+	path = plugins/better-wp-security
+	url = git@github.com:Bit51/Better-WP-Security.git
+[submodule "plugins/w3-total-cache"]
+	path = plugins/w3-total-cache
+	url = git@github.com:crowdfavorite-mirrors/wp-w3-total-cache.git
+[submodule "plugins/wordpress-seo"]
+	path = plugins/wordpress-seo
+	url = git@github.com:crowdfavorite-mirrors/wp-wordpress-seo.git
+[submodule "plugins/wp-h5bp-htaccess"]
+	path = plugins/wp-h5bp-htaccess
+	url = git@github.com:roots/wp-h5bp-htaccess.git
+[submodule "themes/roots"]
+	path = themes/roots
+	url = git@github.com:johnsolarz/roots.git
