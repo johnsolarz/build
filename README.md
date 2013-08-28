@@ -1,7 +1,7 @@
 WP Build
 ========
 
-Eight Seven Central WordPress development themes and plugins.
+Eight Seven Central WordPress themes and plugins.
 
 Install
 -------
