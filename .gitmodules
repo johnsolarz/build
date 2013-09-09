@@ -1,6 +1,3 @@
-[submodule "plugins/acf"]
-	path = plugins/acf
-	url = git@github.com:elliotcondon/acf.git
 [submodule "plugins/akismet"]
 	path = plugins/akismet
 	url = git@github.com:crowdfavorite-mirrors/wp-akismet.git
