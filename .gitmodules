@@ -19,3 +19,6 @@
 [submodule "themes/roots"]
 	path = themes/roots
 	url = git@github.com:johnsolarz/roots.git
+[submodule "plugins/advanced-custom-fields"]
+	path = plugins/advanced-custom-fields
+	url = git@github.com:elliotcondon/acf.git
