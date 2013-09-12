@@ -22,3 +22,6 @@
 [submodule "plugins/advanced-custom-fields"]
 	path = plugins/advanced-custom-fields
 	url = git@github.com:elliotcondon/acf.git
+[submodule "plugins/esc-dashboard"]
+	path = plugins/esc-dashboard
+	url = git@github.com:johnsolarz/esc-dashboard.git
