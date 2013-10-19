@@ -11,6 +11,8 @@ Install
 3. Run `git submodule update --init --recursive`
 4. Rock that shit
 
+If your submodules become out of date, run `git submodule foreach 'git fetch origin --tags; git checkout master; git pull' && git pull && git submodule update --init --recursive`
+
 Author
 ------
 
