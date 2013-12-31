@@ -22,3 +22,6 @@
 [submodule "plugins/esc-dashboard"]
 	path = plugins/esc-dashboard
 	url = git@github.com:johnsolarz/esc-dashboard.git
+[submodule "plugins/roots-rewrites"]
+	path = plugins/roots-rewrites
+	url = git@github.com:roots/roots-rewrites.git
