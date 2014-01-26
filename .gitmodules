@@ -25,3 +25,6 @@
 [submodule "plugins/roots-rewrites"]
 	path = plugins/roots-rewrites
 	url = git@github.com:roots/roots-rewrites.git
+[submodule "plugins/total-security"]
+	path = plugins/total-security
+	url = git@github.com:wp-plugins/total-security.git
