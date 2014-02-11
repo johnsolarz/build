@@ -1,4 +1,4 @@
-Core Eight Seven Central WordPress developement framework running on git submodules - old school but works for us.
+Eight Seven Central WordPress developement framework running on git submodules - old school but works for us.
 
 Install
 -------
