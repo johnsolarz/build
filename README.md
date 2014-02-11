@@ -32,7 +32,7 @@ Create custom php.ini:
 
 - SSH into account and copy default php.ini file into home directory:
   `cp /usr/local/lib/php.ini ~/php.ini`
-- tell wp htaccess where to look for the new php.ini file (change '/wp'/ to match directory):
+- tell wp htaccess where to look for the new php.ini file (change 'wp' to match directory):
   `echo "SuPHP_ConfigPath $HOME" >> ~/public_html/wp/.htaccess`
 
 In php.ini add:
