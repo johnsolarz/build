@@ -1,4 +1,4 @@
-Core Eight Seven Central WordPress developement framework running on git submodules - oldschool but works for us.
+Core Eight Seven Central WordPress developement framework running on git submodules - old school but works for us.
 
 Install
 -------
@@ -9,18 +9,24 @@ Install
 4. Rock that shit
 
 To update old submodules:
-`git submodule foreach 'git fetch origin --tags; git checkout master; git pull' && git pull && git submodule update --init --recursive`
+```
+git submodule foreach 'git fetch origin --tags; git checkout master;
+git pull' && git pull && git submodule update --init --recursive
+```
 
-Configs on installation
------------------------
+Config to-dos
+-------------
 
 In wp-config.php add:
 
-`/* Limit WordPress post type revisions */
+```
+/* Limit WordPress post type revisions */
 define('WP_POST_REVISIONS', 5);
-
+```
+```
 /* Define WordPress.com API Key */
-define('WPCOM_API_KEY','your_api_key');`
+define('WPCOM_API_KEY','your_api_key');
+```
 
 Create custom php.ini:
 
@@ -31,16 +37,20 @@ Create custom php.ini:
 
 In php.ini add:
 
-`; Increase memory limit (may already be set by default)
-memory_limit = 256M`
-
-`; Increase file size limit (may already be set by default)
+```
+; Increase memory limit (may already be set by default)
+memory_limit = 256M
+```
+```
+; Increase file size limit (may already be set by default)
 upload_max_filesize = 128M
 post_max_size = 128M
-max_execution_time = 300`
-
-`; Increase input vars
-max_input_vars = 3000`
+max_execution_time = 300
+```
+```
+; Increase input vars
+max_input_vars = 3000
+```
 
 Author
 ------
