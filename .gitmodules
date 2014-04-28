@@ -4,9 +4,6 @@
 [submodule "plugins/analytics360"]
 	path = plugins/analytics360
 	url = git@github.com:crowdfavorite/wp-analytics360.git
-[submodule "plugins/better-wp-security"]
-	path = plugins/better-wp-security
-	url = git@github.com:Bit51/Better-WP-Security.git
 [submodule "plugins/wordpress-seo"]
 	path = plugins/wordpress-seo
 	url = git@github.com:crowdfavorite-mirrors/wp-wordpress-seo.git
