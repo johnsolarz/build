@@ -20,12 +20,17 @@ Config to-dos
 In wp-config.php add:
 
 ```
-/* Limit WordPress post type revisions */
+/**
+ * Limit WordPress post type revisions
+ */
 define('WP_POST_REVISIONS', 5);
-```
-```
-/* Define WordPress.com API Key */
-define('WPCOM_API_KEY','your_api_key');
+
+/**
+ * Load WordPress license keys
+ */
+define('GF_LICENSE_KEY', 'your-key-here');
+
+define('WPCOM_API_KEY','your-key-key');
 ```
 
 Create custom php.ini:
